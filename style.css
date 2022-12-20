@@ -32,12 +32,12 @@ img {
     max-width: 200px;
     max-height: 200px;
     position: absolute;
-    border: 1px solid red;
+    border: 2px solid red;
 }
 
 .contenedor-perros {
-    width: 600px;
-    height: 600px;
+    width: 604px;
+    height: 604px;
     border: solid 10px white;
     position: relative;
     margin: 0 auto;
