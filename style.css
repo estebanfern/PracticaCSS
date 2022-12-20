@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: gainsboro;
+    text-align: center;
+}
+
+.rojo {
+    background-color: red;
+    height: 20px;
+    max-width: 200%;    
+}
+.blanco {
+    background-color: white;
+    height: 20px;
+    max-width: 200%;    
+}
+.azul {
+    background-color: blue;
+    height: 20px;
+    max-width: 200%;    
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.jagua {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.contenedor-perros {
+    width: 600px;
+    height: 600px;
+    border: solid 10px white;
+    position: relative;
+    margin: 0 auto;
+}
+
+.perro {
+    position: absolute;
+    top : 100px;
+    left : 100px;
+    border: solid 3px burlywood;
+}
+
+.dv1:hover {
+    box-shadow: 0 0 50px rebeccapurple;
+}
+.dv2:hover {
+    box-shadow: 0 0 50px rebeccapurple;
+}
+.dv3:hover {
+    box-shadow: 0 0 50px rebeccapurple;
+}
+.dv4:hover {
+    box-shadow: 0 0 50px rebeccapurple;
+}
+.dv5:hover {
+    box-shadow: 0 0 50px rebeccapurple;
+}
+
+/* ~ */
+.dv1:hover+.lol1 {
+    display: none;
+}
+.dv2:hover+.lol2 {
+    display: none;
+}
+.dv3:hover+.lol3 {
+    display: none;
+}
+.dv4:hover+.lol4 {
+    display: none;
+}
+
