@@ -1,13 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Tabla del Fútbol Paraguayo</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>Tabla del Fútbol Paraguayo</h1>
+        </header>
+        <div class="padre">
+            <div class="container">
+                <div class="fila nombresColumnas">
+                    <span class="column">Club</span>
+                    <span class="column number">PJ</span>
+                    <span class="column number">G</span>
+                    <span class="column number">E</span>
+                    <span class="column number">P</span>
+                    <span class="column number">GF</span>
+                    <span class="column number">GC</span>
+                    <span class="column number">DG</span>
+                    <span class="column number">Pts</span>
+                    <span class="column number">Últimos 5</span>
+                </div>
+                <div class="fila par">
+                    <span class="column">
+                    <span class="equipo">
+                        <p>1</p>
+                        <object data="resources/libertad.svg" class="logoEquipo"> </object>
+                        <p>Libertad</p>
+                      </span>
+                    </span>
+                    <span class="column number">13</span>
+                    <span class="column number">10</span>
+                    <span class="column number">2</span>
+                    <span class="column number">1</span>
+                    <span class="column number">30</span>
+                    <span class="column number">12</span>
+                    <span class="column number">18</span>
+                    <span class="column number">32</span>
+                    <span class="column number resultados">
+                      <object data="resources/gano.svg" class="result"> </object>
+                      <object data="resources/gano.svg" class="result"> </object>
+                      <object data="resources/empato.svg" class="result"> </object>
+                      <object data="resources/perdio.svg" class="result"> </object>
+                      <object data="resources/gano.svg" class="result"> </object>
+                    </span>
+                </div>
+                
+                <div class="fila impar">
+                    <span class="column">
+                    <span class="equipo">
+                        <p>2</p>
+                        <object data="resources/cerro.svg" class="logoEquipo"> </object>
+                        <p>Cerro</p>
+                    </span>
+                    </span>
+                    <span class="column number">13</span>
+                    <span class="column number">10</span>
+                    <span class="column number">1</span>
+                    <span class="column number">2</span>
+                    <span class="column number">25</span>
+                    <span class="column number">8</span>
+                    <span class="column number">17</span>
+                    <span class="column number">31</span>
+                    <span class="column number resultados">
+                      <object data="resources/gano.svg" class="result"> </object>
+                      <object data="resources/gano.svg" class="result"> </object>
+                      <object data="resources/perdio.svg" class="result"> </object>
+                      <object data="resources/gano.svg" class="result"> </object>
+                      <object data="resources/empato.svg" class="result"> </object>
+                    </span>
+                  </div>
+                  
+                  <div class="fila par">
+                    <span class="column">
+                      <span class="equipo">
+                        <p>3</p>
+                        <object data="resources/olimpia.svg" class="logoEquipo"> </object>
+                        <p>Olimpia</p>
+                      </span>
+                    </span>
+                    <span class="column number">13</span>
+                    <span class="column number">7</span>
+                    <span class="column number">3</span>
+                    <span class="column number">3</span>
+                    <span class="column number">19</span>
+                    <span class="column number">13</span>
+                    <span class="column number">6</span>
+                    <span class="column number">24</span>
+                    <span class="column number resultados">
+                      <object data="resources/gano.svg" class="result"> </object>
+                      <object data="resources/gano.svg" class="result"> </object>
+                      <object data="resources/gano.svg" class="result"> </object>
+                      <object data="resources/empato.svg" class="result"> </object>
+                      <object data="resources/perdio.svg" class="result"> </object>
+                    </span>
+                </div>
+
+                <div class="fila impar">
+                  <span class="column">
+                  <span class="equipo">
+                      <p>4</p>
+                      <object data="resources/resistencia.svg" class="logoEquipo"> </object>
+                      <p>Resistencia</p>
+                  </span>
+                  </span>
+                  <span class="column number">13</span>
+                  <span class="column number">6</span>
+                  <span class="column number">5</span>
+                  <span class="column number">2</span>
+                  <span class="column number">25</span>
+                  <span class="column number">19</span>
+                  <span class="column number">6</span>
+                  <span class="column number">23</span>
+                  <span class="column number resultados">
+                    <object data="resources/gano.svg" class="result"> </object>
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/empato.svg" class="result"> </object>
+                    <object data="resources/gano.svg" class="result"> </object>
+                    <object data="resources/empato.svg" class="result"> </object>
+                  </span>
+                </div>
+
+                <div class="fila par">
+                  <span class="column">
+                  <span class="equipo">
+                      <p>5</p>
+                      <object data="resources/sol.svg" class="logoEquipo"> </object>
+                      <p>Sol de América</p>
+                  </span>
+                  </span>
+                  <span class="column number">13</span>
+                  <span class="column number">5</span>
+                  <span class="column number">3</span>
+                  <span class="column number">5</span>
+                  <span class="column number">14</span>
+                  <span class="column number">17</span>
+                  <span class="column number">-3</span>
+                  <span class="column number">18</span>
+                  <span class="column number resultados">
+                    <object data="resources/gano.svg" class="result"> </object>
+                    <object data="resources/gano.svg" class="result"> </object>
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/gano.svg" class="result"> </object>
+                    <object data="resources/empato.svg" class="result"> </object>
+                  </span>
+                </div>
+
+                <div class="fila impar">
+                  <span class="column">
+                  <span class="equipo">
+                      <p>6</p>
+                      <object data="resources/nacional.svg" class="logoEquipo"> </object>
+                      <p>Nacional</p>
+                  </span>
+                  </span>
+                  <span class="column number">13</span>
+                  <span class="column number">5</span>
+                  <span class="column number">2</span>
+                  <span class="column number">6</span>
+                  <span class="column number">16</span>
+                  <span class="column number">21</span>
+                  <span class="column number">-5</span>
+                  <span class="column number">17</span>
+                  <span class="column number resultados">
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/gano.svg" class="result"> </object>
+                    <object data="resources/gano.svg" class="result"> </object>
+                    <object data="resources/gano.svg" class="result"> </object>
+                  </span>
+                </div>
+
+                <div class="fila par">
+                  <span class="column">
+                  <span class="equipo">
+                      <p>7</p>
+                      <object data="resources/tacuary.svg" class="logoEquipo"> </object>
+                      <p>Tacuary</p>
+                  </span>
+                  </span>
+                  <span class="column number">13</span>
+                  <span class="column number">5</span>
+                  <span class="column number">1</span>
+                  <span class="column number">7</span>
+                  <span class="column number">12</span>
+                  <span class="column number">14</span>
+                  <span class="column number">-2</span>
+                  <span class="column number">16</span>
+                  <span class="column number resultados">
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/gano.svg" class="result"> </object>
+                    <object data="resources/gano.svg" class="result"> </object>
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/perdio.svg" class="result"> </object>
+                  </span>
+                </div>
+
+                <div class="fila impar">
+                  <span class="column">
+                  <span class="equipo">
+                      <p>8</p>
+                      <object data="resources/guarani.svg" class="logoEquipo"> </object>
+                      <p>Guarani</p>
+                  </span>
+                  </span>
+                  <span class="column number">13</span>
+                  <span class="column number">4</span>
+                  <span class="column number">3</span>
+                  <span class="column number">6</span>
+                  <span class="column number">15</span>
+                  <span class="column number">17</span>
+                  <span class="column number">-2</span>
+                  <span class="column number">15</span>
+                  <span class="column number resultados">
+                    <object data="resources/empato.svg" class="result"> </object>
+                    <object data="resources/gano.svg" class="result"> </object>
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/gano.svg" class="result"> </object>
+                  </span>
+                </div>
+
+                <div class="fila par">
+                  <span class="column">
+                  <span class="equipo">
+                      <p>9</p>
+                      <object data="resources/guaireña.svg" class="logoEquipo"> </object>
+                      <p>Guaireña</p>
+                  </span>
+                  </span>
+                  <span class="column number">13</span>
+                  <span class="column number">3</span>
+                  <span class="column number">3</span>
+                  <span class="column number">7</span>
+                  <span class="column number">11</span>
+                  <span class="column number">18</span>
+                  <span class="column number">-7</span>
+                  <span class="column number">12</span>
+                  <span class="column number resultados">
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/gano.svg" class="result"> </object>
+                    <object data="resources/gano.svg" class="result"> </object>
+                  </span>
+                </div>
+
+                <div class="fila impar">
+                  <span class="column">
+                  <span class="equipo">
+                      <p>10</p>
+                      <object data="resources/12octubre.svg" class="logoEquipo"> </object>
+                      <p>12 de Octubre</p>
+                  </span>
+                  </span>
+                  <span class="column number">13</span>
+                  <span class="column number">2</span>
+                  <span class="column number">6</span>
+                  <span class="column number">5</span>
+                  <span class="column number">10</span>
+                  <span class="column number">21</span>
+                  <span class="column number">-11</span>
+                  <span class="column number">12</span>
+                  <span class="column number resultados">
+                    <object data="resources/gano.svg" class="result"> </object>
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/empato.svg" class="result"> </object>
+                    <object data="resources/empato.svg" class="result"> </object>
+                    <object data="resources/empato.svg" class="result"> </object>
+                  </span>
+                </div>
+
+                <div class="fila par">
+                  <span class="column">
+                  <span class="equipo">
+                      <p>11</p>
+                      <object data="resources/gralcaballero.svg" class="logoEquipo"> </object>
+                      <p>General Caballero</p>
+                  </span>
+                  </span>
+                  <span class="column number">13</span>
+                  <span class="column number">2</span>
+                  <span class="column number">3</span>
+                  <span class="column number">8</span>
+                  <span class="column number">12</span>
+                  <span class="column number">18</span>
+                  <span class="column number">-6</span>
+                  <span class="column number">9</span>
+                  <span class="column number resultados">
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/empato.svg" class="result"> </object>
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/empato.svg" class="result"> </object>
+                  </span>
+                </div>
+
+                <div class="fila impar">
+                  <span class="column">
+                  <span class="equipo">
+                      <p>12</p>
+                      <object data="resources/ameliano.svg" class="logoEquipo"> </object>
+                      <p>Sportivo Ameliano</p>
+                  </span>
+                  </span>
+                  <span class="column number">13</span>
+                  <span class="column number">3</span>
+                  <span class="column number">0</span>
+                  <span class="column number">10</span>
+                  <span class="column number">12</span>
+                  <span class="column number">23</span>
+                  <span class="column number">-11</span>
+                  <span class="column number">9</span>
+                  <span class="column number resultados">
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/gano.svg" class="result"> </object>
+                    <object data="resources/perdio.svg" class="result"> </object>
+                    <object data="resources/perdio.svg" class="result"> </object>
+                  </span>
+                </div>
+
+            </div>
+        </div>
 </body>
 </html>
